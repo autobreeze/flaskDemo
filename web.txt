@@ -1,0 +1,7 @@
+django:大而全，重型，内部提供：ORM,Aadmin，中间件，Form，ModelForm，Session，缓存，信号，CSRF
+flask:短小精悍，可扩展性强（以上都可以扩展出来）
+tornado:短小精悍，异步非阻塞
+webpy，bottlepy:微小
+    wsgi协议（一个水杯，杯体是web框架，杯盖是run_sample，wsgi则是规定连接齿轮的大小，宽度的标准）：
+    -django，wsgiref
+    -flask，werkzurg:flask框架的run底层调用的就是werkzurg的run_sample方法
